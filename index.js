@@ -5,7 +5,7 @@ const prefix = ("Cp ");
 
 bot.on('ready', function () {
  console.log("Oui jvais bossé patron xD")
- bot.user.setGame('Cp help').catch(console.error)
+   bot.user.setActivity("Cp help");
 });
 
 bot.on('guildMemberAdd', member => {
