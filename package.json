@@ -1,14 +1,25 @@
 {
-  "name": "bot",
-  "version": "1.0.0",
-  "description": "",
+
+  "name": "Example",
+
+  "description": "Example",
+
+  "version": "0.0.0",
+
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "node index.js"
+
   },
-  "author": "alexpgm",
-  "license": "ISC",
+
   "dependencies": {
-    "discord.js": "^11.3.2"
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
   }
+
 }
