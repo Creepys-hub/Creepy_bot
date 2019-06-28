@@ -314,4 +314,4 @@ if (message.content.startsWith(prefix + "clear")) {
     }
 });
 
-bot.login(cfg.token);
+bot.login(token); //a garder en version heroku
